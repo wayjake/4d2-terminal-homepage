@@ -1,0 +1,9 @@
+{
+  "name": "4d2-terminal-homepage",
+  "version": "1.0.0",
+  "main": "app/index.js",
+  "repository": "https://github.com/wayjake/4d2-terminal-homepage",
+  "author": "Jake Berg",
+  "license": "MIT",
+  "private": true
+}
