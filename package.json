@@ -1,9 +1,35 @@
 {
   "name": "4d2-terminal-homepage",
   "version": "1.0.0",
-  "main": "app/index.js",
   "repository": "https://github.com/wayjake/4d2-terminal-homepage",
   "author": "Jake Berg",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "terminal-in-react": "^4.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
